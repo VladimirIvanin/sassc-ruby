@@ -6,13 +6,13 @@ require "sassc/version"
 
 Gem::Specification.new do |spec|
 
-  spec.name          = "sassc"
+  spec.name          = "sassc4"
   spec.version       = SassC::VERSION
-  spec.authors       = ["Ryan Boland"]
-  spec.email         = ["ryan@tanookilabs.com"]
+  spec.authors       = ["Ryan Boland", "Vladimir Ivanin"]
+  spec.email         = ["ryan@tanookilabs.com", "ivaninww@gmail.com"]
   spec.summary       = "Use libsass with Ruby!"
   spec.description   = "Use libsass with Ruby!"
-  spec.homepage      = "https://github.com/sass/sassc-ruby"
+  spec.homepage      = "https://github.com/VladimirIvanin/sassc-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
